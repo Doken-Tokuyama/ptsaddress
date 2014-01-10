@@ -32,7 +32,7 @@ ninja.translator = {
 		"en": {
 			// javascript alerts or messages
 			"testneteditionactivated": "TESTNET EDITION ACTIVATED",
-			"paperlabelbitcoinaddress": "Protoshare Address:",
+			"paperlabelbitcoinaddress": "Protoshares Address:",
 			"paperlabelprivatekey": "Private Key (Wallet Import Format):",
 			"paperlabelencryptedkey": "Encrypted Private Key (Password required)",
 			"bulkgeneratingaddresses": "Generating addresses... ",
@@ -45,7 +45,7 @@ ninja.translator = {
 			"bip38alertpassphraserequired": "Passphrase required for BIP38 key",
 			"vanityinvalidinputcouldnotcombinekeys": "Invalid input. Could not combine keys.",
 			"vanityalertinvalidinputpublickeysmatch": "Invalid input. The Public Key of both entries match. You must input two different keys.",
-			"vanityalertinvalidinputcannotmultiple": "Invalid input. Cannot multiply two public keys. Select 'Add' to add two public keys to get a protoshare address.",
+			"vanityalertinvalidinputcannotmultiple": "Invalid input. Cannot multiply two public keys. Select 'Add' to add two public keys to get a protoshares address.",
 			"vanityprivatekeyonlyavailable": "Only available when combining two private keys",
 			"vanityalertinvalidinputprivatekeysmatch": "Invalid input. The Private Key of both entries match. You must input two different keys."
 		},
@@ -71,7 +71,7 @@ ninja.translator = {
 			"vanityalertinvalidinputprivatekeysmatch": "Entrada no válida. La clave privada de ambos coincidan entradas. Debe introducir dos claves diferentes.",
 
 			// header and menu html
-			"tagline": "Generador de carteras Protoshare de código abierto en lado de cliente con Javascript",
+			"tagline": "Generador de carteras Protoshares de código abierto en lado de cliente con Javascript",
 			"generatelabelbitcoinaddress": "Generando dirección Protoshare...",
 			"generatelabelmovemouse": "Mueve un poco el ratón para crear entropía...",
 			"singlewallet": "Una sola cartera",
@@ -96,11 +96,11 @@ ninja.translator = {
 			"singleprint": "Imprimir",
 			"singlelabelbitcoinaddress": "Dirección Protoshare",
 			"singlelabelprivatekey": "Clave privada (formato para importar):",
-			"singletip1": "<b>A Protoshare wallet</b> is as simple as a single pairing of a Protoshare address with it's corresponding Protoshare private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshare address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshare private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshare address.", //TODO: please translate
-			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshare address.", //TODO: please translate
-			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshare p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshare p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshare address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+			"singletip1": "<b>A Protoshares wallet</b> is as simple as a single pairing of a Protoshares address with it's corresponding Protoshares private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshares address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshares private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshares address.", //TODO: please translate
+			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshares address.", //TODO: please translate
+			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshares p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshares p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshares address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
 
 			// paper wallet html
 			"paperlabelhideart": "Ocultar diseño",
@@ -120,12 +120,12 @@ ninja.translator = {
 			"bulklabelcsv": "Valores separados por coma:",
 			"bulklabelformat": "Índice,Dirección,Clave privada (formato para importar)",
 			"bulklabelq1": "¿Por qué debo usar \"Direcciones en masa\" para aceptar Protoshares en mi web?",
-			"bulka1": "La forma tradicional de aceptar protoshares en tu web requiere tener instalado el cliente oficial de protoshare (\"protoshared\"). Sin embargo muchos servicios de hosting no permiten instalar dicho cliente. Además, ejecutar el cliente en tu servidor supone que las claves privadas están también en el servidor y podrían ser comprometidas en caso de intrusión. Al usar este mecanismo, puedes subir al servidor sólo las dirección de protoshare y no las claves privadas. De esta forma no te tienes que preocupar de que alguien robe la cartera si se cuelan en el servidor.",
+			"bulka1": "La forma tradicional de aceptar protoshares en tu web requiere tener instalado el cliente oficial de protoshares (\"protoshared\"). Sin embargo muchos servicios de hosting no permiten instalar dicho cliente. Además, ejecutar el cliente en tu servidor supone que las claves privadas están también en el servidor y podrían ser comprometidas en caso de intrusión. Al usar este mecanismo, puedes subir al servidor sólo las dirección de protoshares y no las claves privadas. De esta forma no te tienes que preocupar de que alguien robe la cartera si se cuelan en el servidor.",
 			"bulklabelq2": "¿Cómo uso \"Direcciones en masa\" para aceptar protoshares en mi web?",
 			"bulklabela2li1": "Usa el tab \"Direcciones en masa\" para generar por anticipado muchas direcciones (más de 10000). Copia y pega la lista de valores separados por comas (CSV) a un archivo de texto seguro (cifrado) en tu ordenador. Guarda una copia de seguridad en algún lugar seguro.",
 			"bulklabela2li2": "Importa las direcciones en la base de datos de tu servidor. No subas la cartera ni las claves públicas, o de lo contrario te lo pueden robar. Sube sólo las direcciones, ya que es lo que se va a mostrar a los clientes.",
 			"bulklabela2li3": "Ofrece una alternativa en el carro de la compra de tu web para que los clientes paguen con Protoshare. Cuando el cliente elija pagar con Protoshare, les muestras una de las direcciones de la base de datos como su \"dirección de pago\" y guardas esto junto con el pedido.",
-			"bulklabela2li4": "Ahora te hace falta recibir una notificación del pago. Busca en google \"notificación de pagos protoshare\" (o \"protoshare payment notification\" en inglés) y suscríbete a alguno de los servicios que aparezcan. Hay varios de ellos, que te pueden notificar vía Web services, API, SMS, email, etc. Una vez te llegue la notificación, lo cual puede ser automatizado, entonces ya puedes procesar el pedido. Para comprobar a mano si has recibido un pago, puedes usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que estés comprobando. La transacción puede tardar entre 10 minutos y una hora en ser confirmada. <br />https://coinplorer.com/PTS/Addresses/DIRECCION<br /><br />Puedes ver las transacciones sin confirmar en: https://coinplorer.com/PTS <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
+			"bulklabela2li4": "Ahora te hace falta recibir una notificación del pago. Busca en google \"notificación de pagos protoshare\" (o \"protoshares payment notification\" en inglés) y suscríbete a alguno de los servicios que aparezcan. Hay varios de ellos, que te pueden notificar vía Web services, API, SMS, email, etc. Una vez te llegue la notificación, lo cual puede ser automatizado, entonces ya puedes procesar el pedido. Para comprobar a mano si has recibido un pago, puedes usar Block Explorer: reemplaza DIRECCION a continuación por la dirección que estés comprobando. La transacción puede tardar entre 10 minutos y una hora en ser confirmada. <br />https://coinplorer.com/PTS/Addresses/DIRECCION<br /><br />Puedes ver las transacciones sin confirmar en: https://coinplorer.com/PTS <br />Las transacciones sin confirmar suelen aparecer ahí en unos 30 segundos.",
 			"bulklabela2li5": "Las protoshares que recibas se almacenarán de forma segura en la cadena de bloques. Usa la cartera original que generaste en el paso 1 para usarlas.",
 
 			// brain wallet html
@@ -153,7 +153,7 @@ ninja.translator = {
 			"vanitylabelradioadd": "Añadir",
 			"vanitylabelradiomultiply": "Multiplicar",
 			"vanitycalc": "Calcular cartera personalizada",
-			"vanitylabelbitcoinaddress": "Dirección Protoshare personalizada:",
+			"vanitylabelbitcoinaddress": "Dirección Protoshares personalizada:",
 			"vanitylabelnotesbitcoinaddress": "Esta es tu nueva dirección, que debería tener el prefijo deseado.",
 			"vanitylabelpublickeyhex": "Clave pública personalizada (HEX):",
 			"vanitylabelnotespublickeyhex": "Lo anterior es la clave pública en formato hexadecimal.",
@@ -165,9 +165,9 @@ ninja.translator = {
 			"detailview": "Ver detalles",
 			"detailprint": "Imprimir",
 			"detaillabelnote1": "Tu clave privada es un número secreto, único, que sólo tú conoces. Se puede expresar en varios formatos. Aquí abajo mostramos la dirección y la clave pública que se corresponden con tu clave privada, así como la clave privada en los formatos más conocidos (para importar, hex, base64 y mini).",
-			"detaillabelnote2": "Protoshare v0.6+ almacena las claves públicas comprimidas. El cliente también soporta importar/exportar claves privadas usando importprivkey/dumpprivkey. El formato de las claves privadas exportadas depende de si la dirección se generó en una cartera antigua o nueva.",
+			"detaillabelnote2": "Protoshares v0.6+ almacena las claves públicas comprimidas. El cliente también soporta importar/exportar claves privadas usando importprivkey/dumpprivkey. El formato de las claves privadas exportadas depende de si la dirección se generó en una cartera antigua o nueva.",
 			"detaillabelbitcoinaddress": "Dirección Protoshare:",
-			"detaillabelbitcoinaddresscomp": "Dirección Protoshare (comprimida):",
+			"detaillabelbitcoinaddresscomp": "Dirección Protoshares (comprimida):",
 			"detaillabelpublickey": "Clave pública (130 caracteres [0-9A-F]):",
 			"detaillabelpublickeycomp": "Clave pública (comprimida, 66 caracteres [0-9A-F]):",
 			"detaillabelprivwif": "Clave privada para importar<br />51 caracteres en base58, empieza con un",
@@ -200,7 +200,7 @@ ninja.translator = {
 			"vanityalertinvalidinputprivatekeysmatch": "Entrée non valide. La clé Privée des deux entrées est identique. Vous devez entrer deux clés différentes.",
 
 			// header and menu html
-			"tagline": "Générateur De Porte-Monnaie Protoshare Javascript Hors-Ligne",
+			"tagline": "Générateur De Porte-Monnaie Protoshares Javascript Hors-Ligne",
 			"generatelabelbitcoinaddress": "Création de l'adresse Protoshare...",
 			"generatelabelmovemouse": "BOUGEZ votre souris pour ajouter de l'entropie...",
 			"singlewallet": "Porte-Monnaie Simple",
@@ -225,11 +225,11 @@ ninja.translator = {
 			"singleprint": "Imprimer",
 			"singlelabelbitcoinaddress": "Adresse Protoshare:",
 			"singlelabelprivatekey": "Clé Privée (Format d'importation de porte-monnaie):",
-			"singletip1": "<b>A Protoshare wallet</b> is as simple as a single pairing of a Protoshare address with it's corresponding Protoshare private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshare address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshare private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshare address.", //TODO: please translate
-			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshare address.", //TODO: please translate
-			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshare p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshare p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshare address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+			"singletip1": "<b>A Protoshares wallet</b> is as simple as a single pairing of a Protoshares address with it's corresponding Protoshares private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshares address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshares private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshares address.", //TODO: please translate
+			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshares address.", //TODO: please translate
+			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshares p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshares p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshares address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
 
 			// paper wallet html
 			"paperlabelhideart": "Retirer Le Style?",
@@ -249,12 +249,12 @@ ninja.translator = {
 			"bulklabelcsv": "Valeurs Séparées Par Des Virgules (CSV):",
 			"bulklabelformat": "Index,Adresse,Clé Privée (WIF)",
 			"bulklabelq1": "Pourquoi utiliserais-je un Porte-monnaie en vrac pour accepter les Protoshares sur mon site web?",
-			"bulka1": "L'approche traditionnelle pour accepter des Protoshares sur votre site web requière l'installation du logiciel Protoshare officiel (\"protoshared\"). Plusieurs hébergeurs ne supportent pas l'installation du logiciel Protoshare. De plus, faire fonctionner le logiciel Protoshare sur votre serveur web signifie que vos clés privées sont hébergées sur le serveur et pourraient donc être volées si votre serveur web était compromis. En utilisant un Porte-monnaie en vrac, vous pouvez publiquer seulement les adresses Protoshare sur votre serveur et non les clés privées. Vous n'avez alors pas à vous inquiéter du risque de vous faire voler votre porte-monnaie si votre serveur était compromis.",
-			"bulklabelq2": "Comment utiliser le Porte-monnaie en vrac pour utiliser le Protoshare sur mon site web?",
-			"bulklabela2li1": "Utilisez le Porte-monnaie en vrac pour pré-générer une large quantité d'adresses Protoshare (10,000+). Copiez collez les données séparées par des virgules (CSV) dans un fichier texte sécurisé dans votre ordinateur. Sauvegardez ce fichier dans un endroit sécurisé.",
-			"bulklabela2li2": "Importez les adresses Protoshare dans une base de donnée sur votre serveur web. (N'ajoutez pas le porte-monnaie ou les clés privées sur votre serveur web, sinon vous courrez le risque de vous faire voler si votre serveur est compromis. Ajoutez seulement les adresses Protoshare qui seront visibles à vos visiteurs.)",
+			"bulka1": "L'approche traditionnelle pour accepter des Protoshares sur votre site web requière l'installation du logiciel Protoshares officiel (\"protoshared\"). Plusieurs hébergeurs ne supportent pas l'installation du logiciel Protoshare. De plus, faire fonctionner le logiciel Protoshares sur votre serveur web signifie que vos clés privées sont hébergées sur le serveur et pourraient donc être volées si votre serveur web était compromis. En utilisant un Porte-monnaie en vrac, vous pouvez publiquer seulement les adresses Protoshares sur votre serveur et non les clés privées. Vous n'avez alors pas à vous inquiéter du risque de vous faire voler votre porte-monnaie si votre serveur était compromis.",
+			"bulklabelq2": "Comment utiliser le Porte-monnaie en vrac pour utiliser le Protoshares sur mon site web?",
+			"bulklabela2li1": "Utilisez le Porte-monnaie en vrac pour pré-générer une large quantité d'adresses Protoshares (10,000+). Copiez collez les données séparées par des virgules (CSV) dans un fichier texte sécurisé dans votre ordinateur. Sauvegardez ce fichier dans un endroit sécurisé.",
+			"bulklabela2li2": "Importez les adresses Protoshares dans une base de donnée sur votre serveur web. (N'ajoutez pas le porte-monnaie ou les clés privées sur votre serveur web, sinon vous courrez le risque de vous faire voler si votre serveur est compromis. Ajoutez seulement les adresses Protoshares qui seront visibles à vos visiteurs.)",
 			"bulklabela2li3": "Ajoutez une option dans votre panier en ligne pour que vos clients puissent vous payer en Protoshare. Quand un client choisi de vous payer en Protoshare, vous pouvez afficher une des adresses de votre base de donnée comme \"adresse de paiment\" pour votre client et sauvegarder cette adresse avec sa commande.",
-			"bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"protoshare payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Protoshare. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu la notification, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser Block Explorer. Remplacez ADRESSE par l'adresse Protoshare que vous souhaitez vérifier. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.<br />https://coinplorer.com/PTS/Addresses/ADRESSE<br /><br />Les transactions non confirmées peuvent être visualisées ici: https://coinplorer.com/PTS <br />Vous devriez voir la transaction à l'intérieur de 30 secondes.",
+			"bulklabela2li4": "Vous avez maintenant besoin d'être avisé quand le paiement est reçu. Cherchez \"protoshares payment notification\" sur Google et inscrivez-vous à un service de notification de paiement Protoshare. Il y a plusieurs services qui vous avertiront via des services Web, API, SMS, Email, etc. Une fois que vous avez reçu la notification, qui devrait être programmée automatiquement, vous pouvez traiter la commande de votre client. Pour vérifier manuellement si un paiement est arrivé, vous pouvez utiliser Block Explorer. Remplacez ADRESSE par l'adresse Protoshares que vous souhaitez vérifier. La confirmation de la transaction pourrait prendre de 10 à 60 minutes pour être confirmée.<br />https://coinplorer.com/PTS/Addresses/ADRESSE<br /><br />Les transactions non confirmées peuvent être visualisées ici: https://coinplorer.com/PTS <br />Vous devriez voir la transaction à l'intérieur de 30 secondes.",
 			"bulklabela2li5": "Les Protoshares vos s'accumuler de façon sécuritaire dans la chaîne de blocs. Utilisez le porte-monnaie original que vous avez généré à l'étape 1 pour les dépenser.",
 
 			// brain wallet html
@@ -282,7 +282,7 @@ ninja.translator = {
 			"vanitylabelradioadd": "Ajouter",
 			"vanitylabelradiomultiply": "Multiplier",
 			"vanitycalc": "Calculer Le Porte-monnaie Vanité",
-			"vanitylabelbitcoinaddress": "Adresse Protoshare Vanité:",
+			"vanitylabelbitcoinaddress": "Adresse Protoshares Vanité:",
 			"vanitylabelnotesbitcoinaddress": "Ci-haut est votre nouvelle adresse qui devrait inclure le préfix requis.",
 			"vanitylabelpublickeyhex": "Clé Public Vanité (HEX):",
 			"vanitylabelnotespublickeyhex": "Celle-ci est la Clé Publique dans le format hexadécimal. ",
@@ -293,10 +293,10 @@ ninja.translator = {
 			"detaillabelenterprivatekey": "Entrez la Clé Privée (quel que soit son format)",
 			"detailview": "Voir les détails",
 			"detailprint": "Imprimer",
-			"detaillabelnote1": "Votre Clé Privée Protoshare est un nombre secret que vous êtes le seul à connaître. Il peut être encodé sous la forme d'un nombre sous différents formats. Ci-bas, nous affichons l'adresse Protoshare et la Clé Publique qui corresponds à la Clé Privée ainsi que la Clé Privée dans les formats d'encodage les plus populaires (WIF, HEX, B64, MINI).",
-			"detaillabelnote2": "Protoshare v0.6+ conserve les clés publiques dans un format compressé. Le logiciel supporte maintenant aussi l'importation et l'exportation de clés privées avec importprivkey/dumpprivkey. Le format de la clé privée exportée est déterminé selon la version du porte-monnaie Protoshare.",
+			"detaillabelnote1": "Votre Clé Privée Protoshares est un nombre secret que vous êtes le seul à connaître. Il peut être encodé sous la forme d'un nombre sous différents formats. Ci-bas, nous affichons l'adresse Protoshares et la Clé Publique qui corresponds à la Clé Privée ainsi que la Clé Privée dans les formats d'encodage les plus populaires (WIF, HEX, B64, MINI).",
+			"detaillabelnote2": "Protoshares v0.6+ conserve les clés publiques dans un format compressé. Le logiciel supporte maintenant aussi l'importation et l'exportation de clés privées avec importprivkey/dumpprivkey. Le format de la clé privée exportée est déterminé selon la version du porte-monnaie Protoshare.",
 			"detaillabelbitcoinaddress": "Adresse Protoshare:",
-			"detaillabelbitcoinaddresscomp": "Adresse Protoshare (compressée):",
+			"detaillabelbitcoinaddresscomp": "Adresse Protoshares (compressée):",
 			"detaillabelpublickey": "Clé Publique (130 caractères [0-9A-F]):",
 			"detaillabelpublickeycomp": "Clé Publique (compressée, 66 caractères [0-9A-F]):",
 			"detaillabelprivwif": "Clé Privée WIF<br />51 caractères base58, débute avec un a",
@@ -354,11 +354,11 @@ ninja.translator = {
 			"singleprint": "Εκτύπωση",
 			"singlelabelbitcoinaddress": "Διεύθυνση Protoshare:",
 			"singlelabelprivatekey": "Προσωπικό Κλειδί (Μορφή εισαγωγής σε πορτοφόλι):",
-			"singletip1": "<b>A Protoshare wallet</b> is as simple as a single pairing of a Protoshare address with it's corresponding Protoshare private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
-			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshare address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshare private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
-			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshare address.", //TODO: please translate
-			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshare address.", //TODO: please translate
-			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshare p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshare p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshare address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
+			"singletip1": "<b>A Protoshares wallet</b> is as simple as a single pairing of a Protoshares address with it's corresponding Protoshares private key. Such a wallet has been generated for you in your web browser and is displayed above.", //TODO: please translate
+			"singletip2": "<b>To safeguard this wallet</b> you must print or otherwise record the Protoshares address and private key. It is important to make a backup copy of the private key and store it in a safe location. This site does not have knowledge of your private key. If you are familiar with PGP you can download this all-in-one HTML page and check that you have an authentic version from the author of this site by matching the SHA1 hash of this HTML with the SHA1 hash available in the signed version history document linked on the footer of this site. If you leave/refresh the site or press the Generate New Address button then a new private key will be generated and the previously displayed private key will not be retrievable.	Your Protoshares private key should be kept a secret. Whomever you share the private key with has access to spend all the protoshares associated with that address. If you print your wallet then store it in a zip lock bag to keep it safe from water. Treat a paper wallet like cash.", //TODO: please translate
+			"singletip3": "<b>Add funds</b> to this wallet by instructing others to send protoshares to your Protoshares address.", //TODO: please translate
+			"singletip4": "<b>Check your balance</b> by going to coinplorer.com/PTS or btsblock.com and entering your Protoshares address.", //TODO: please translate
+			"singletip5": "<b>Spend your protoshares</b> by downloading one of the popular protoshares p2p clients and importing your private key to the p2p client wallet. Keep in mind when you import your single key to a protoshares p2p client and spend funds your key will be bundled with other private keys in the p2p client wallet. When you perform a transaction your change will be sent to another protoshares address within the p2p client wallet. You must then backup the p2p client wallet and keep it safe as your remaining protoshares will be stored there. Satoshi advised that one should never delete a wallet.", //TODO: please translate
 
 			// paper wallet html
 			"paperlabelhideart": "Απόκρυψη γραφικού;",
@@ -378,12 +378,12 @@ ninja.translator = {
 			"bulklabelcsv": "Τιμές που χωρίζονται με κόμμα (CSV):",
 			"bulklabelformat": "Δείκτης,Διεύθυνση,Προσωπικό Κλειδί (WIF)",
 			"bulklabelq1": "Γιατί να χρησιμοποιήσω Πολλαπλά Πορτοφόλια στην ιστοσελίδα μου;",
-			"bulka1": "Ο παραδοσιακός τρόπος για να δέχεστε protoshares στην ιστοσελίδα σας, απαιτεί την εγκατάσταση και λειτουργία του επίσημου δαίμονα πελάτη protoshare (\"protoshared\"). Αρκετά πακέτα φιλοξενίας δεν υποστηρίζουν την εγκατάστασή του. Επιπλέον, η εκτέλεση του πελάτη protoshare στον web server σας συνεπάγεται και τη φιλοξενία των προσωπικών σας κλειδιών στον ίδιο server, τα οποία μπορεί να υποκλαπούν αν ο server πέσει θύμα επίθεσης. Χρησιμοποιώντας τα Πολλαπλά Πορτοφόλια, ανεβάζετε στον server σας μόνο τις διευθύνσεις Protoshare κι όχι τα προσωπικά κλειδιά. Με αυτό τον τρόπο δεν χρειάζεται να ανησυχείτε μήπως υποκλαπεί το πορτοφόλι σας.",
+			"bulka1": "Ο παραδοσιακός τρόπος για να δέχεστε protoshares στην ιστοσελίδα σας, απαιτεί την εγκατάσταση και λειτουργία του επίσημου δαίμονα πελάτη protoshares (\"protoshared\"). Αρκετά πακέτα φιλοξενίας δεν υποστηρίζουν την εγκατάστασή του. Επιπλέον, η εκτέλεση του πελάτη protoshares στον web server σας συνεπάγεται και τη φιλοξενία των προσωπικών σας κλειδιών στον ίδιο server, τα οποία μπορεί να υποκλαπούν αν ο server πέσει θύμα επίθεσης. Χρησιμοποιώντας τα Πολλαπλά Πορτοφόλια, ανεβάζετε στον server σας μόνο τις διευθύνσεις Protoshares κι όχι τα προσωπικά κλειδιά. Με αυτό τον τρόπο δεν χρειάζεται να ανησυχείτε μήπως υποκλαπεί το πορτοφόλι σας.",
 			"bulklabelq2": "Πως χρησιμοποιώ τα Πολλαπλά Πορτοφόλια για να δέχομαι protoshares στην ιστοσελίδα μου;",
-			"bulklabela2li1": "Χρησιμοποιήστε την καρτέλα Πολλαπλά Πορτοφόλια για να δημιουργήσετε έναν μεγάλο αριθμό διευθύνσεων Protoshare (10.000+). Αντιγράψτε κι επικολλήστε τη λίστα των χωρισμένων με κόμμα τιμών (CSV) που δημιουργήθηκαν, σε ένα ασφαλές αρχείο στον υπολογιστή σας. Αντιγράψτε το αρχείο που δημιουργήσατε σε μια ασφαλή τοποθεσία.",
-			"bulklabela2li2": "Εισάγετε τις διευθύνσεις Protoshare σε έναν πίνακα βάσης δεδομένων στον web server σας. (Μην αντιγράψετε τα προσωπικά κλειδιά ή το πορτοφόλι στον web server γιατί διακινδυνεύετε να σας τα κλέψουν. Μόνο τις διευθύνσεις Protoshare που θα εμφανίζονται στους πελάτες.)",
+			"bulklabela2li1": "Χρησιμοποιήστε την καρτέλα Πολλαπλά Πορτοφόλια για να δημιουργήσετε έναν μεγάλο αριθμό διευθύνσεων Protoshares (10.000+). Αντιγράψτε κι επικολλήστε τη λίστα των χωρισμένων με κόμμα τιμών (CSV) που δημιουργήθηκαν, σε ένα ασφαλές αρχείο στον υπολογιστή σας. Αντιγράψτε το αρχείο που δημιουργήσατε σε μια ασφαλή τοποθεσία.",
+			"bulklabela2li2": "Εισάγετε τις διευθύνσεις Protoshares σε έναν πίνακα βάσης δεδομένων στον web server σας. (Μην αντιγράψετε τα προσωπικά κλειδιά ή το πορτοφόλι στον web server γιατί διακινδυνεύετε να σας τα κλέψουν. Μόνο τις διευθύνσεις Protoshares που θα εμφανίζονται στους πελάτες.)",
 			"bulklabela2li3": "Παρέχετε στο καλάθι αγορών σας μια επιλογή για πληρωμή σε Protoshare. Όταν ο πελάτης επιλέγει να πληρώσει με Protoshare, θα εμφανίσετε σε αυτόν μια από τις διευθύνσεις από τη βάση δεδομένων, ως την «προσωπική του διεύθυνση πληρωμής» την οποία θα αποθηκεύσετε μαζί με την εντολή αγοράς.",
-			"bulklabela2li4": "Τώρα χρειάζεται να ειδοποιηθείτε μόλις γίνει η πληρωμή. Ψάξτε στο Google για «protoshare payment notification» κι εγγραφείτε σε τουλάχιστο μία υπηρεσία ειδοποίησης πληρωμής. Υπάρχουν διάφορες υπηρεσίες που θα σας ειδοποιήσουν με Web υπηρεσίες, API, SMS, Email, κλπ. Όταν λάβετε την ειδοποίηση, η οποία μπορεί να αυτοματοποιηθεί προγραμματιστικά, εκτελείτε την εντολή του πελάτη. Για να ελέγξετε χειροκίνητα την πληρωμή μπορείτε να χρησιμοποιήσετε τον Block Explorer. Αντικαταστήστε το THEADDRESSGOESHERE με τη Protoshare διεύθυνσή σας. Η επιβεβαίωση της πληρωμής ενδέχεται να διαρκέσει από δέκα λεπτά έως μία ώρα.<br />https://coinplorer.com/PTS/Addresses/THEADDRESSGOESHERE<br /><br />Μπορείτε να δείτε τις συναλλαγές που δεν έχουν επιβεβαιωθεί στο: https://coinplorer.com/PTS <br />Θα πρέπει να δείτε τη συναλλαγή εκεί εντός 30 δευτερολέπτων.",
+			"bulklabela2li4": "Τώρα χρειάζεται να ειδοποιηθείτε μόλις γίνει η πληρωμή. Ψάξτε στο Google για «protoshares payment notification» κι εγγραφείτε σε τουλάχιστο μία υπηρεσία ειδοποίησης πληρωμής. Υπάρχουν διάφορες υπηρεσίες που θα σας ειδοποιήσουν με Web υπηρεσίες, API, SMS, Email, κλπ. Όταν λάβετε την ειδοποίηση, η οποία μπορεί να αυτοματοποιηθεί προγραμματιστικά, εκτελείτε την εντολή του πελάτη. Για να ελέγξετε χειροκίνητα την πληρωμή μπορείτε να χρησιμοποιήσετε τον Block Explorer. Αντικαταστήστε το THEADDRESSGOESHERE με τη Protoshares διεύθυνσή σας. Η επιβεβαίωση της πληρωμής ενδέχεται να διαρκέσει από δέκα λεπτά έως μία ώρα.<br />https://coinplorer.com/PTS/Addresses/THEADDRESSGOESHERE<br /><br />Μπορείτε να δείτε τις συναλλαγές που δεν έχουν επιβεβαιωθεί στο: https://coinplorer.com/PTS <br />Θα πρέπει να δείτε τη συναλλαγή εκεί εντός 30 δευτερολέπτων.",
 			"bulklabela2li5": "Τα Protoshares θα συσσωρεύονται με ασφάλεια στην αλυσίδα των μπλοκ. Χρησιμοποιήστε το αρχικό πορτοφόλι που δημιουργήσατε στο βήμα 1 για να τα ξοδέψετε.",
 
 			// brain wallet html
@@ -402,7 +402,7 @@ ninja.translator = {
 			"vanitylabelstep1publickey": "Βήμα 1 Δημόσιο Κλειδί:",
 			"vanitylabelstep1pubnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω στο πεδίο Your-Part-Public-Key στην ιστοσελίδα του Vanity Pool.",
 			"vanitylabelstep1privatekey": "Step 1 Προσωπικό Κλειδί:",
-			"vanitylabelstep1privnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω Προσωπικό Κλειδί σε ένα αρχείο κειμένου. Ιδανικά, αποθηκεύστε το σε έναν κρυπτογραφημένο δίσκο. Θα το χρειαστείτε για να ανακτήσετε το Protoshare Προσωπικό Κλειδί όταν βρεθεί το πρόθεμά σας από το Vanity Pool.",
+			"vanitylabelstep1privnotes": "Αντιγράψτε κι επικολλήστε το παραπάνω Προσωπικό Κλειδί σε ένα αρχείο κειμένου. Ιδανικά, αποθηκεύστε το σε έναν κρυπτογραφημένο δίσκο. Θα το χρειαστείτε για να ανακτήσετε το Protoshares Προσωπικό Κλειδί όταν βρεθεί το πρόθεμά σας από το Vanity Pool.",
 			"vanitylabelstep2calculateyourvanitywallet": "Βήμα 2 - Υπολογίστε το Vanity Πορτοφόλι σας.",
 			"vanitylabelenteryourpart": "Εισάγετε το Προσωπικό Κλειδί που δημιουργήσατε στο Βήμα 1 κι αποθηκεύσατε:",
 			"vanitylabelenteryourpoolpart": "Εισάγετε το Προσωπικό Κλειδί από το Vanity Pool:",
@@ -422,8 +422,8 @@ ninja.translator = {
 			"detaillabelenterprivatekey": "Εισάγετε το Προσωπικό Κλειδί (οποιαδήποτε μορφή)",
 			"detailview": "Προβολή λεπτομερειών",
 			"detailprint": "Εκτύπωση",
-			"detaillabelnote1": "Το Protoshare Προσωπικό Κλειδί είναι ένας μοναδικός και μυστικός αριθμός που μόνο εσείς πρέπει να γνωρίζετε, ο οποίος μπορεί να κωδικοποιηθεί σε πολλές διαφορετικές μορφές. Εμφανίζουμε παρακάτω τη διεύθυνση Protoshare και το Δημόσιο Κλειδί, μαζί με το Προσωπικό Κλειδί, στις πιο δημοφιλείς μορφές  (WIF, HEX, B64, MINI).",
-			"detaillabelnote2": "Το Protoshare v0.6+ αποθηκεύει τα Προσωπικά Κλειδιά σε συμπιεσμένη μορφή. Το πρόγραμμα υποστηρίζει επίσης εισαγωγή κι εξαγωγή των Προσωπικών Κλειδιών με τις εντολές importprivkey/dumpprivkey. Η μορφή του εξαγόμενου Προσωπικού Κλειδιού προσδιορίζεται από το αν η διεύθυνση δημιουργήθηκε σε ένα παλιό ή νέο πορτοφόλι.",
+			"detaillabelnote1": "Το Protoshares Προσωπικό Κλειδί είναι ένας μοναδικός και μυστικός αριθμός που μόνο εσείς πρέπει να γνωρίζετε, ο οποίος μπορεί να κωδικοποιηθεί σε πολλές διαφορετικές μορφές. Εμφανίζουμε παρακάτω τη διεύθυνση Protoshares και το Δημόσιο Κλειδί, μαζί με το Προσωπικό Κλειδί, στις πιο δημοφιλείς μορφές  (WIF, HEX, B64, MINI).",
+			"detaillabelnote2": "Το Protoshares v0.6+ αποθηκεύει τα Προσωπικά Κλειδιά σε συμπιεσμένη μορφή. Το πρόγραμμα υποστηρίζει επίσης εισαγωγή κι εξαγωγή των Προσωπικών Κλειδιών με τις εντολές importprivkey/dumpprivkey. Η μορφή του εξαγόμενου Προσωπικού Κλειδιού προσδιορίζεται από το αν η διεύθυνση δημιουργήθηκε σε ένα παλιό ή νέο πορτοφόλι.",
 			"detaillabelbitcoinaddress": "Διεύθυνση Protoshare:",
 			"detaillabelbitcoinaddresscomp": "Συμπιεσμένη Διεύθυνση Protoshare:",
 			"detaillabelpublickey": "Δημόσιο Κλειδί (130 χαρακτήρες [0-9A-F]):",
